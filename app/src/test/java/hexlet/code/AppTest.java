@@ -7,8 +7,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AppTest {
 
     @Test
-    public void testStringMain () {
+    public void testStringMain() {
         String mainString  = "Here Im";
-        assertEquals ("Here Im", mainString);
+        assertEquals("Here Im", mainString);
     }
 }
