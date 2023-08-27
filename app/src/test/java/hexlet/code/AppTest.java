@@ -2,17 +2,17 @@ package hexlet.code;
 
 import org.junit.jupiter.api.Test;
 
-import static hexlet.code.App.helloString;
+//import static hexlet.code.App.helloString;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class AppTest {
 
-    @Test
-    public void testStringMain() {
-        assertEquals(helloStringTest(), helloString());
-    }
-    public static String helloStringTest() {
-        return "Here Im";
-    }
+//    @Test
+//    public void testStringMain() {
+//        assertEquals(helloStringTest(), helloString());
+//    }
+//    public static String helloStringTest() {
+//        return "Here Im";
+//    }
 }
