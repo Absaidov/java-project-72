@@ -1,6 +1,5 @@
 package hexlet.code;
 
-//import io.ebeaninternal.server.util.Str;
 import org.junit.jupiter.api.Test;
 
 import static hexlet.code.App.helloString;
