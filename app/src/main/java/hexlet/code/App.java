@@ -19,7 +19,7 @@ public final class App {
     public static Javalin getApp() {
         Javalin app = Javalin.create(config -> {
             if (!isProduction()) {
-                config.plugins.enableDevLogging();
+                config.enableDevLogging();
             }
             config.enableWebjars();
             JavalinThymeleaf.configure(getTemplateEngine());
