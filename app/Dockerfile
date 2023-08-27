@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17-jdk
 
-ARG GRADLE_VERSION=8.2
+ARG GRADLE_VERSION=8.1
 
 RUN apt-get update && apt-get install -yq unzip
 
